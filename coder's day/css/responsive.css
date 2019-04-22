@@ -1,0 +1,39 @@
+@media screen and (max-width: 1024px) {
+    article {
+        width: 90%;
+    }
+
+    .icon1, .icon2 {
+        display: none;
+    }
+
+    .one {
+        float: none;
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 50px;
+    }
+
+    .one:nth-child(1) {
+        margin-left: 0px;
+    }
+
+    .cell {
+        display: block;
+        width: 70%;
+        margin: 0px auto 20px auto;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+   
+    .wheel {
+        width: 300px;
+        margin-left: -150px;
+    }
+
+    .explain {
+        width: 100%;
+    }
+}
